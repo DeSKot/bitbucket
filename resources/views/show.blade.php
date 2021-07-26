@@ -13,6 +13,7 @@
             <th scope="col">Name</th>
             <th scope="col">E-mail</th>
             <th scope="col">Message</th>
+            <th scope="col">Create date</th>
           </tr>
         </thead>
         <tbody>
@@ -22,6 +23,7 @@
             <td>{{ $item['name'] }}</td>
             <td>{{ $item['email'] }}</td>
             <td>{{ $item['message'] }}</td>
+            <td>{{ $item['created_at'] }}</td>
           </tr>
         </tbody>
         @endforeach
